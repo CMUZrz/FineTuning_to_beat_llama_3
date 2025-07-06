@@ -5,7 +5,7 @@
 **Authors:** Dan Jung, Dhruva Byrapatna, Zachary Zdobinski
 *A project for the 10-423/623 Generative AI Course at Carnegie Mellon University.*
 
-## 🌟 Highlights \& Major Results
+##  Highlights \& Major Results
 
 This project demonstrates that smaller, efficiently fine-tuned Large Language Models (LLMs) can outperform larger, more computationally expensive counterparts on specialized tasks.
 
@@ -97,7 +97,7 @@ The full results are summarized in the table below:
 |  | Beer | - | 0.60 | 0.66 | 0.63 |
 |  | Math | 0.33 | - | - | - |
 
-## ✅ Conclusion
+## Conclusion
 
 Our research confirms that **parameter-efficient fine-tuning (QLoRA) enables smaller LLMs to achieve or surpass the performance of much larger models** on specialized, domain-specific tasks. The fine-tuned Mistral-7B model outperformed the Llama 3 70B model on the GSM8K and BeerAdvocate datasets.
 
