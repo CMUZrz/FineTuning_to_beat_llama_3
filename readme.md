@@ -1,4 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+
 
 # Final Executive Summary: Can Smaller, Efficiently Fine-Tuned LLMs Outperform Larger Models?
 
@@ -27,7 +27,7 @@ This project demonstrates that smaller, efficiently fine-tuned Large Language Mo
 * [Key Related Work](#-key-related-work)
 
 
-## проекта Project Overview
+## Project Overview
 
 Recent advances in generative AI have been driven by massive LLMs with billions of parameters. However, training and fine-tuning these models is prohibitively expensive for many. This project investigates whether smaller LLMs, using parameter-efficient fine-tuning (PEFT) methods, can match or exceed the performance of larger models on specialized tasks.
 
@@ -128,46 +128,4 @@ Our work is built upon the insights from several foundational papers in the fiel
 * **Dr.ICL: Demonstration-Retrieved In-Context Learning** (Luo et al., 2023): Proposed the method of retrieving demonstrations to boost in-context learning, which we implemented and tested.
 * **Textbooks Are All You Need** (Gunasekar et al., 2023): Showcased the power of training on high-quality, "textbook" style data to achieve strong performance with smaller models.
 * **Large Dual Encoders Are Generalizable Retrievers** (Ni et al., 2021): This work supported our choice of the GTR-T5 model as a dense retriever for our Dr.ICL implementation, showing its effectiveness in zero-shot retrieval.
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://github.com/GetRD/academic-file-converter/blob/main/README.md
-
-[^2]: https://www.youtube.com/watch?v=QcZKsbgsLa4
-
-[^3]: https://stackoverflow.com/questions/26587527/cite-a-paper-using-github-markdown-syntax
-
-[^4]: https://github.com/banesullivan/README
-
-[^5]: https://stackoverflow.com/questions/66796916/easy-way-to-cite-academic-references-in-the-readme-md-of-a-github-repo
-
-[^6]: https://www.hatica.io/blog/best-practices-for-github-readme/
-
-[^7]: https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf
-
-[^8]: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-
-[^9]: https://daily.dev/blog/readme-badges-github-best-practices
-
-[^10]: https://github.com/jananiarunachalam/Research-Paper-Summarization/blob/master/README.md
-
-[^11]: https://www.youtube.com/watch?v=rCt9DatF63I
-
-[^12]: https://www.reddit.com/r/github/comments/136ks63/10_mustknow_tips_for_crafting_the_perfect/
-
-[^13]: https://research-hub.auckland.ac.nz/article/research-data-readme
-
-[^14]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
-
-[^15]: https://github.com/jehna/readme-best-practices
-
-[^16]: http://jonathanpeelle.net/making-a-readme-file
-
-[^17]: https://www.makeareadme.com
-
-[^18]: https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-[^19]: https://binste.github.io/basic_reproducibility_guide/sharing_your_work/readme_file
-
-[^20]: https://dev.to/github/how-to-create-a-github-profile-readme-jha
 
