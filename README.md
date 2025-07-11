@@ -3,7 +3,7 @@
 # Can Smaller, Efficiently Fine-Tuned LLMs Outperform Larger Models?
 
 **Authors:** Dan Jung, Dhruva Byrapatna, Zachary Zdobinski
-*A project for the 10-423/623 Generative AI Course at Carnegie Mellon University.*
+*This Repo is a result of the project for the 10-623 Generative AI Course at Carnegie Mellon University.*
 
 ##  Highlights \& Major Results
 
