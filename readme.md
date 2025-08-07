@@ -1,11 +1,11 @@
 
 
-# Final Executive Summary: Can Smaller, Efficiently Fine-Tuned LLMs Outperform Larger Models?
+# Can Smaller, Efficiently Fine-Tuned LLMs Outperform Larger Models?
 
 **Authors:** Dan Jung, Dhruva Byrapatna, Zachary Zdobinski
-*A project for the 10-423/623 Generative AI Course.*
+*This Repo is a result of the project for the 10-623 Generative AI Course at Carnegie Mellon University.*
 
-## 🌟 Highlights \& Major Results
+##  Highlights \& Major Results
 
 This project demonstrates that smaller, efficiently fine-tuned Large Language Models (LLMs) can outperform larger, more computationally expensive counterparts on specialized tasks.
 
@@ -15,7 +15,7 @@ This project demonstrates that smaller, efficiently fine-tuned Large Language Mo
 * **Method Effectiveness is Task-Dependent:** The effectiveness of different fine-tuning methods varies by dataset. While combining QLoRA and Dr.ICL was powerful for some tasks, using QLoRA alone was the most effective strategy for the BeerAdvocate dataset, which features many numeric categories.
 
 
-## 📖 Table of Contents
+##  Table of Contents
 
 * [Project Overview](#-project-overview)
 * [Methods](#-methods)
@@ -33,7 +33,7 @@ Recent advances in generative AI have been driven by massive LLMs with billions 
 
 Our objective is to show that a smaller model, when trained on targeted datasets with efficient methods like QLoRA and Demonstration-Retrieved In-Context Learning (Dr.ICL), can achieve higher accuracy, providing a viable alternative for specialized AI applications.
 
-## 🛠️ Methods
+##  Methods
 
 We evaluated the performance of a small model (Mistral-7B-Instruct) against a large one (Llama 3 70B) using several enhancement techniques.
 
@@ -60,7 +60,7 @@ We followed a systematic process:
 4. **Combined Methods:** Integrate QLoRA and Dr.ICL to assess their joint effect.
 5. **Comparative Analysis:** Compare all results to identify the most effective strategies.
 
-## 📊 Datasets
+##  Datasets
 
 We used three distinct datasets to test performance on specialized tasks:
 
@@ -69,7 +69,7 @@ We used three distinct datasets to test performance on specialized tasks:
 * **GSM8K Dataset:** A collection of 8,500 grade-school math word problems. The task was to reason through the problem and provide a final numerical answer. Performance was measured by the accuracy of the final answer.
 
 
-## 📈 Experimental Results
+## Experimental Results
 
 Our experiments show that a fine-tuned small model can consistently outperform a much larger model. The combination of methods that worked best depended on the specific task.
 
@@ -97,7 +97,7 @@ The full results are summarized in the table below:
 |  | Beer | - | 0.60 | 0.66 | 0.63 |
 |  | Math | 0.33 | - | - | - |
 
-## ✅ Conclusion
+## Conclusion
 
 Our research confirms that **parameter-efficient fine-tuning (QLoRA) enables smaller LLMs to achieve or surpass the performance of much larger models** on specialized, domain-specific tasks. The fine-tuned Mistral-7B model outperformed the Llama 3 70B model on the GSM8K and BeerAdvocate datasets.
 
@@ -109,7 +109,7 @@ We also found that the effectiveness of demonstration-retrieval in-context learn
 * **Evaluate on New Domains:** Our approach could be tested on other technical datasets, such as those from the nuclear industry or other scientific fields, to generalize our findings.
 
 
-## 💻 Code Overview
+##  Code Overview
 
 The implementation for this project was handled in several parts:
 
@@ -119,7 +119,7 @@ The implementation for this project was handled in several parts:
 * **QLoRA Implementation:** We used HuggingFace's `peft` and `transformers` libraries to implement QLoRA. This involved tokenizing the data, applying a mask to ensure the model only trained on the "answer" part of the examples, and configuring the model for 4-bit training.
 
 
-## 📚 Key Related Work
+##  Key Related Work
 
 Our work is built upon the insights from several foundational papers in the field of efficient model training and in-context learning:
 
