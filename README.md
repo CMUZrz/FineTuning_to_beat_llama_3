@@ -5,6 +5,7 @@
 **Authors:** Dan Jung, Dhruva Byrapatna, Zachary Zdobinski
 *This Repo is a result of the project for the 10-623 Generative AI Course at Carnegie Mellon University.*
 
+*This Repo and the code that was written is a port of the major code segments and methods developed collaboratively during this project developed by Zachary Zdobinski
 ##  Highlights \& Major Results
 
 This project demonstrates that smaller, efficiently fine-tuned Large Language Models (LLMs) can outperform larger, more computationally expensive counterparts on specialized tasks.
@@ -103,7 +104,7 @@ Our research confirms that **parameter-efficient fine-tuning (QLoRA) enables sma
 
 We also found that the effectiveness of demonstration-retrieval in-context learning (Dr.ICL) was highly dependent on the dataset. While it provided a boost for some tasks, particularly when integrated into the training process, it was not universally beneficial. This highlights the importance of selecting the right fine-tuning strategy for a given application.
 
-## 🚀 Future Work
+##  Future Work
 
 * **Refine Data Quality and Prompt Engineering:** Improving training data and prompt design could further enhance model performance, especially when combining QLoRA and Dr.ICL.
 * **Evaluate on New Domains:** Our approach could be tested on other technical datasets, such as those from the nuclear industry or other scientific fields, to generalize our findings.
